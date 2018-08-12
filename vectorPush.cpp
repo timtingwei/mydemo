@@ -28,6 +28,6 @@ int main() {
   udef(5);
   std::cout << QVEC.size() << std::endl;   // 1
 
-  std::cout << q.size() << " " << *(q.begin()) << std::endl;    // 1  5
+  std::cout << q.size() << " " << *(q.begin()) << std::endl;    // 2  5
   return 0;
 }
